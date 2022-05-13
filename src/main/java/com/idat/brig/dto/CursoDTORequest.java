@@ -1,0 +1,40 @@
+package com.idat.brig.dto;
+
+import com.idat.brig.models.MallaCurricural;
+
+public class CursoDTORequest {
+	
+	private Integer idCursoDTO;
+	private String cursoDTO;
+	private String descripcionDTO;
+	private MallaCurricural idMallaDTO;
+	
+	
+	public Integer getIdCursoDTO() {
+		return idCursoDTO;
+	}
+	public void setIdCursoDTO(Integer idCursoDTO) {
+		this.idCursoDTO = idCursoDTO;
+	}
+	public String getCursoDTO() {
+		return cursoDTO;
+	}
+	public void setCursoDTO(String cursoDTO) {
+		this.cursoDTO = cursoDTO;
+	}
+	public String getDescripcionDTO() {
+		return descripcionDTO;
+	}
+	public void setDescripcionDTO(String descripcionDTO) {
+		this.descripcionDTO = descripcionDTO;
+	}
+	public MallaCurricural getIdMallaDTO() {
+		return idMallaDTO;
+	}
+	public void setIdMallaDTO(MallaCurricural idMallaDTO) {
+		this.idMallaDTO = idMallaDTO;
+	}
+
+	
+	
+}
